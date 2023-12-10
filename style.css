@@ -1,0 +1,87 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #444;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    scroll-margin-top: 50px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    scroll-margin-top: 50px;
+}
+
+#o-mne {
+    background-color: #ffcccb; /* světle červená */
+}
+
+#konicky {
+    background-color: #c2f0c2; /* světle zelená */
+}
+
+#vzdelani {
+    background-color: #add8e6; /* světle modrá */
+}
+
+#kontakty {
+    background-color: #ffe4b5; /* světle oranžová */
+}
+
+.konicky-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.konicky-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.konicky-item img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.konicky-text {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .konicky-item img,
+    .konicky-text {
+        max-width: 100%;
+    }
+}
